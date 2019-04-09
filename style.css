@@ -72,7 +72,7 @@ section{
 
 }
 
-h2{
+h1, h2{
   text-align: center;
 }
 
@@ -114,6 +114,7 @@ br{
   background-color: coral;
 }
 
+<<<<<<< HEAD
 
 @media screen and (max-width: 1235px) {
 
@@ -137,3 +138,21 @@ br{
   }
 
 }
+=======
+.columnLayout {
+  background-color: lightblue;
+  padding:25px 50px;
+  display: flex;
+}
+
+.mainColumn{
+  color: black;
+  padding-right: 25px;
+  flex: 1;
+}
+
+.sideColumnOne{
+  color: black;
+  flex: 3;
+}
+>>>>>>> 4ac7781d549a5a0db02fa703c1009912dc1beec9
