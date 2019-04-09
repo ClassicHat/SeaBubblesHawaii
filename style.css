@@ -68,7 +68,7 @@ section{
 
 }
 
-h2{
+h1, h2{
   text-align: center;
 }
 
@@ -93,4 +93,21 @@ h2{
   display:flex;
   justify-content: space-around;
   background-color: coral;
+}
+
+.columnLayout {
+  background-color: lightblue;
+  padding:25px 50px;
+  display: flex;
+}
+
+.mainColumn{
+  color: black;
+  padding-right: 25px;
+  flex: 1;
+}
+
+.sideColumnOne{
+  color: black;
+  flex: 3;
 }
