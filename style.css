@@ -11,6 +11,12 @@ a:link, a:visited, a:hover, a:active{
   text-decoration: none;
 }
 
+figcaption{
+  text-align: center;
+  position: relative;
+  top: -2em;
+}
+
 body{
   margin: 0;
 }
