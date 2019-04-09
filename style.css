@@ -97,17 +97,27 @@ h1, h2{
 
 .columnLayout {
   background-color: lightblue;
-  padding:25px 50px;
+  padding:25px 50px 0px 50px;
   display: flex;
 }
 
-.mainColumn{
+.leftColumn{
   color: black;
   padding-right: 25px;
+  size: 1.5em;
   flex: 1;
 }
 
-.sideColumnOne{
+.leftColumnPic{
+  text-align: center;
+}
+
+.rightColumn{
   color: black;
-  flex: 3;
+  size: 1.5em;
+  flex:1
+}
+
+.rightColumnPic{
+  text-align: center;
 }
