@@ -110,6 +110,7 @@ h1, h2{
 
 .leftColumnPic{
   text-align: center;
+  flex: 3;
 }
 
 .rightColumn{
@@ -120,4 +121,10 @@ h1, h2{
 
 .rightColumnPic{
   text-align: center;
+  flex: 3;
+}
+
+.textPortion{
+  border: solid 2px #003399;
+  padding: 5px;
 }
