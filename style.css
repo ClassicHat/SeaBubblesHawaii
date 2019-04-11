@@ -152,6 +152,7 @@ br{
 
 .leftColumnPic{
   text-align: center;
+  flex: 3;
 }
 
 .rightColumn{
@@ -167,4 +168,8 @@ br{
 .textPortion{
   border: solid 2px #003399;
   padding: 5px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 142024f612cd6ceea51d10b24e59b905652a482a
