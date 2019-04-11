@@ -114,8 +114,6 @@ br{
   background-color: coral;
 }
 
-<<<<<<< HEAD
-
 @media screen and (max-width: 1235px) {
 
   .Nav{
@@ -138,21 +136,35 @@ br{
   }
 
 }
-=======
+
 .columnLayout {
   background-color: lightblue;
-  padding:25px 50px;
+  padding:25px 50px 0px 50px;
   display: flex;
 }
 
-.mainColumn{
+.leftColumn{
   color: black;
   padding-right: 25px;
+  size: 1.5em;
   flex: 1;
 }
 
-.sideColumnOne{
+.leftColumnPic{
+  text-align: center;
+}
+
+.rightColumn{
   color: black;
   flex: 3;
 }
->>>>>>> 4ac7781d549a5a0db02fa703c1009912dc1beec9
+
+.rightColumnPic{
+  text-align: center;
+  flex: 3;
+}
+
+.textPortion{
+  border: solid 2px #003399;
+  padding: 5px;
+}
