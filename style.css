@@ -1,175 +1,149 @@
-header{
+header {
   background-color: aqua;
-
   margin: 0;
-
   position: relative;
 }
 
-a:link, a:visited, a:hover, a:active{
+a:link, a:visited, a:hover, a:active {
   color: black;
   text-decoration: none;
 }
 
-figcaption{
+figcaption {
   text-align: center;
   position: relative;
   top: -2em;
 }
 
-body{
+body {
   margin: 0;
 }
 
-.logo{
+.logo {
   display: block;
   width: 10em;
   margin: auto;
   margin-bottom: 0;
 }
 
-.caption{
+.caption {
   margin-top: 0;
   text-align: center;
   margin: auto;
-  position:relative;
+  position: relative;
   top: -1.25em;
-  color:black;
+  color: black;
 }
 
-.waves{
-  width:100%;
+.waves {
+  width: 100%;
   height: 15em;
   margin-bottom: 0;
   position: absolute;
   bottom: -7.5em;
 }
 
-.mainBody{
+.mainBody {
   background-color: #003399;
   color: white;
   padding: 1em;
 }
 
-.Nav{
-  display:flex;
+.Nav {
+  display: flex;
   justify-content: space-around;
 }
 
-.button{
+.button {
   margin: 5em;
   width: 20%;
   text-align: center;
-
 }
 
-section{
+section {
   margin-top: 25em;
   padding-top: 5em;
   padding-bottom: 5em;
   margin: auto;
   border-radius: 2em;
-
 }
 
-h1, h2{
+h1, h2 {
   text-align: center;
 }
 
-br{
+br {
   display: none;
 }
 
-
+.QA{
+  padding-top: 1.5em;
+}
 
 .faq{
-  margin: 5em;
+  width: 80%;
+  margin: auto;
+  align-items: center;
 }
 
-.faq:nth-child(odd){
-  text-align: left;
+.faqimg {
+  height: 15em;
+  padding: 0.5em;
+  align: center;
 }
 
-.faq:nth-child(even){
-  text-align: right;
-}
-
-.faqimg{
-  height: 5em;
-}
-
-.faqimg:nth-child(odd){
-  float: left;
-}
-
-.faqimg:nth-child(even){
-  float: right;
-}
-
-
-
-.footer{
-  display:flex;
+.footer {
+  display: flex;
   justify-content: space-around;
   background-color: coral;
 }
 
 @media screen and (max-width: 1235px) {
-
-  .Nav{
-    margin-top:30px;
-    flex-direction: column;
+  br{
+    display: inherit;
   }
-
-  .button{
-    margin: auto;
-    margin-bottom: 5em;
-  }
-
 }
 
 @media screen and (max-width: 926px) {
 
-  .faqimg{
-    display: block;
-    float: none;
+  .Nav {
+    margin-top: 30px;
+    flex-direction: column;
   }
 
+  .button {
+    margin: auto;
+    margin-bottom: 5em;
+  }
 }
 
 .columnLayout {
   background-color: lightblue;
-  padding:25px 50px 0px 50px;
+  padding: 25px 50px 0px 50px;
   display: flex;
 }
 
-.leftColumn{
+.leftColumn {
   color: black;
   padding-right: 25px;
   size: 1.5em;
   flex: 1;
 }
 
-.leftColumnPic{
-  text-align: center;
+.leftColumnPic {
   flex: 3;
 }
 
-.rightColumn{
+.rightColumn {
   color: black;
+  flex: 1;
+}
+
+.rightColumnPic {
   flex: 3;
 }
 
-.rightColumnPic{
-  text-align: center;
-  flex: 3;
-}
-
-.textPortion{
+.textPortion {
   border: solid 2px #003399;
   padding: 5px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 142024f612cd6ceea51d10b24e59b905652a482a
