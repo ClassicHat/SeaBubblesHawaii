@@ -21,6 +21,14 @@ body{
   margin: 0;
 }
 
+.test{
+  background: rgb(125,185,232);
+  background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
+  background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+}
+
 .logo{
   display: block;
   width: 10em;
@@ -46,9 +54,14 @@ body{
 }
 
 .mainBody{
-  background-color: #003399;
+  /*background-color: #003399;*/
   color: white;
   padding: 1em;
+  background: rgb(125,185,232);
+  background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
+  background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
 }
 
 .Nav{
@@ -112,6 +125,7 @@ br{
   display:flex;
   justify-content: space-around;
   background-color: coral;
+  background-image: url(testPic.jpg)
 }
 
 @media screen and (max-width: 1235px) {
@@ -138,7 +152,7 @@ br{
 }
 
 .columnLayout {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   padding:25px 50px 0px 50px;
   display: flex;
 }
@@ -157,7 +171,7 @@ br{
 
 .rightColumn{
   color: black;
-  flex: 3;
+  flex: 1;
 }
 
 .rightColumnPic{
@@ -168,8 +182,4 @@ br{
 .textPortion{
   border: solid 2px #003399;
   padding: 5px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 142024f612cd6ceea51d10b24e59b905652a482a
