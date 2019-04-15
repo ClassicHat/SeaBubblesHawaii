@@ -1,14 +1,9 @@
 header{
-  background-color: aqua;
+  background-color: lightblue;
 
   margin: 0;
 
   position: relative;
-}
-
-a:link, a:visited, a:hover, a:active{
-  color: black;
-  text-decoration: none;
 }
 
 figcaption{
@@ -17,16 +12,15 @@ figcaption{
   top: -2em;
 }
 
-body{
-  margin: 0;
+/* same as figcaption becausue it cant be in the header tags */
+.headerText{
+  text-align: center;
+  position: relative;
+  top: -2em;
 }
 
-.test{
-  background: rgb(125,185,232);
-  background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
-  background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
-  background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+body{
+  margin: 0;
 }
 
 .logo{
@@ -56,7 +50,7 @@ body{
 .mainBody{
   /*background-color: #003399;*/
   color: white;
-  padding: 1em;
+  padding-top: 1em;
   padding-bottom: 0px;
   background: rgb(125,185,232);
   background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
@@ -86,7 +80,7 @@ section{
 
 }
 
-h1, h2{
+h1, h2, h3{
   text-align: center;
 }
 
@@ -163,7 +157,6 @@ br{
 .leftColumn{
   color: black;
   padding-right: 25px;
-  size: 1.5em;
   flex: 1;
 }
 
@@ -189,4 +182,28 @@ br{
 
 .footerpic{
   text-align: center;
+}
+
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
