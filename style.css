@@ -1,15 +1,19 @@
+
 header {
+  background-color: lightblue;
   background-color: lightblue;
   margin: 0;
   position: relative;
 }
 
-a:link, a:visited, a:hover, a:active {
-  color: black;
-  text-decoration: none;
+figcaption{
+  text-align: center;
+  position: relative;
+  top: -2em;
 }
 
-figcaption {
+/* same as figcaption becausue it cant be in the header tags */
+.headerText{
   text-align: center;
   position: relative;
   top: -2em;
@@ -17,14 +21,6 @@ figcaption {
 
 body {
   margin: 0;
-}
-
-.test{
-  background: rgb(125,185,232);
-  background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
-  background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
-  background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
 }
 
 .logo{
@@ -54,7 +50,7 @@ body {
 .mainBody {
 
   color: white;
-  padding: 1em;
+  padding-top: 1em;
   padding-bottom: 0px;
   background: rgb(125,185,232);
   background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
@@ -82,7 +78,8 @@ section {
   border-radius: 2em;
 }
 
-h1, h2 {
+
+h1, h2, h3{
   text-align: center;
 }
 
@@ -92,6 +89,7 @@ br {
 
 .QA{
   padding-top: 1.5em;
+  font-size: 1.5em;
 }
 
 .faq{
@@ -100,10 +98,26 @@ br {
   align-items: center;
 }
 
+.faq:nth-child(odd){
+  text-align: left;
+}
+
+.faq:nth-child(even){
+  text-align: right;
+}
+
 .faqimg {
-  height: 15em;
+  height: 12em;
   padding: 0.5em;
   align: center;
+}
+
+.faqimg:nth-child(odd){
+  float: left;
+}
+
+.faqimg:nth-child(even){
+  float: right;
 }
 
 .footer {
@@ -113,6 +127,7 @@ br {
   background-image: url(reefpic.png);
   background-repeat: repeat-x;
   background-position: center;
+  color: black;
 }
 
 @media screen and (max-width: 1235px) {
@@ -135,24 +150,19 @@ br {
 }
 
 .columnLayout {
-<<<<<<< HEAD
-  background-color: lightblue;
-  padding: 25px 50px 0px 50px;
-=======
   /*background-color: lightblue;*/
   padding:25px 50px 0px 50px;
->>>>>>> d81b8678316803bc707306048a7f1ebe7b731cc3
   display: flex;
 }
 
 .leftColumn {
   color: black;
   padding-right: 25px;
-  size: 1.5em;
   flex: 1;
 }
 
 .leftColumnPic {
+  text-align: center
   flex: 3;
 }
 
@@ -162,6 +172,7 @@ br {
 }
 
 .rightColumnPic {
+  text-align: center
   flex: 3;
 }
 
@@ -169,10 +180,38 @@ br {
   border: solid 2px #003399;
   padding: 5px;
 }
-<<<<<<< HEAD
-=======
+
 
 .footerpic{
   text-align: center;
 }
->>>>>>> d81b8678316803bc707306048a7f1ebe7b731cc3
+
+.footSection{
+
+  background-color: rgb(30,87,153, 10%);
+
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
