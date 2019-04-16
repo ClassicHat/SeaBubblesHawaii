@@ -109,7 +109,7 @@ br {
 .faqimg {
   height: 12em;
   padding: 0.5em;
-  align: center;
+  text-align: center;
 }
 
 .faqimg:nth-child(odd){
@@ -162,7 +162,7 @@ br {
 }
 
 .leftColumnPic {
-  text-align: center
+  text-align: center;
   flex: 3;
 }
 
@@ -172,7 +172,7 @@ br {
 }
 
 .rightColumnPic {
-  text-align: center
+  text-align: center;
   flex: 3;
 }
 
