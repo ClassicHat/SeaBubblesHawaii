@@ -1,5 +1,5 @@
 header {
-  background-color: aqua;
+  background-color: lightblue;
   margin: 0;
   position: relative;
 }
@@ -19,7 +19,15 @@ body {
   margin: 0;
 }
 
-.logo {
+.test{
+  background: rgb(125,185,232);
+  background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
+  background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
+}
+
+.logo{
   display: block;
   width: 10em;
   margin: auto;
@@ -44,9 +52,15 @@ body {
 }
 
 .mainBody {
-  background-color: #003399;
+
   color: white;
   padding: 1em;
+  padding-bottom: 0px;
+  background: rgb(125,185,232);
+  background: -moz-linear-gradient(top, rgb(125,185,232) 0%, rgb(30,87,153) 100%);
+  background: -webkit-linear-gradient(top, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(30,87,153) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 );
 }
 
 .Nav {
@@ -95,7 +109,10 @@ br {
 .footer {
   display: flex;
   justify-content: space-around;
-  background-color: coral;
+  /*background-color: coral;*/
+  background-image: url(reefpic.png);
+  background-repeat: repeat-x;
+  background-position: center;
 }
 
 @media screen and (max-width: 1235px) {
@@ -118,8 +135,13 @@ br {
 }
 
 .columnLayout {
+<<<<<<< HEAD
   background-color: lightblue;
   padding: 25px 50px 0px 50px;
+=======
+  /*background-color: lightblue;*/
+  padding:25px 50px 0px 50px;
+>>>>>>> d81b8678316803bc707306048a7f1ebe7b731cc3
   display: flex;
 }
 
@@ -147,3 +169,10 @@ br {
   border: solid 2px #003399;
   padding: 5px;
 }
+<<<<<<< HEAD
+=======
+
+.footerpic{
+  text-align: center;
+}
+>>>>>>> d81b8678316803bc707306048a7f1ebe7b731cc3
